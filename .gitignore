@@ -1,0 +1,9 @@
+.idea
+__pycache__
+sprite-image-2-test/train_img_new/*
+sprite-image-2-test/train_img_new_add1/*
+sprite-image-2-test/train_img_new_add2/*
+sprite-image-2-test/train_img_new_add3/*
+sprite-image-2-test/test_img_new/*
+sprite-image-2-test/train_img_old/*
+sha1.js
