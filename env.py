@@ -11,12 +11,11 @@ class Env(object):
     # 请求数据
     login_data = {
         "email": "ls1229344939@163.com",
-        "password": "lovenowhyly0",
+        "password": "密码",
         "_token": ""
     }
     # api的url
-    proxy_api_url = "http://http2.9vps.com/getip.asp?username=yincaita&pwd=59c53dd18840426b95e677d03199df21&geshi" \
-                    "=1&fenge=1&fengefu=&getnum=" + str(ip_each)
+    proxy_api_url = "获取代理的api的url" + str(ip_each)
 
     def __init__(self):
         # 请求头
@@ -42,7 +41,7 @@ class Env(object):
     """
         实时获取代理ip: 某宝找的1块测试, 1s最多获取200次api 这里获取60 感觉前面的速度快些
         ['ip1:port1', 'ip2:port2']
-        过期后用的华益云 ip数量计费
+        过期后用的自己找的按量计费的ip代理商 几块钱10000个 ip数量计费
     """
     def get_proxy(self):
         response = requests.get(self.proxy_api_url, self.headers)
